@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>culture</title>
+    <link rel="stylesheet" href="culture.css">
+    <link href='https://fonts.googleapis.com/css?family=Bellota Text' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="homepage">
+        <div class="main">
+            <svg style="display: none;">
+            <filter id="turbulence">
+              <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="1" result="turbulence" />
+              <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="30" xChannelSelector="R" yChannelSelector="G" />
+            </filter>
+          </svg>
+            <div class="main1">
+                <img src="images/image1.JPG" alt="">
+                <img src="images/image2.jpg" alt="">
+                <img src="images/image3.jpg" alt="">
+                <img src="images/image4.jpg" alt="">
+                <img src="images/image5.jpg" alt="">
+                <img src="images/image1.jpg" alt="">
+                <img src="images/image2.jpg" alt="">
+                <img src="images/image3.jpg" alt="">
+                <img src="images/image4.jpg" alt="">
+                <img src="images/image5.jpg" alt="">
+               
+            </div>
+            <div class="main2">
+                <img src="images/image6.jpg" alt="">
+                <img src="images/image7.jpg" alt="">
+                <img src="images/image8.jpg" alt="">
+                <img src="images/image9.png" alt="">
+                <img src="images/image10.jpg" alt="">
+                <img src="images/image6.jpg" alt="">
+                <img src="images/image7.jpg" alt="">
+                <img src="images/image8.jpg" alt="">
+                <img src="images/image9.png" alt="">
+                <img src="images/image10.jpg" alt="">
+                
+            </div>
+        </div>
+        <div class="header">         
+            <div class="logo">
+                <img src="images/cultuelogo.png" alt="">
+            </div>
+            <div class="menu-btn" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <div class="scroll-container">
+            
+            <a href="#" class="scroll-item">DESIGN</a>
+            <a href="#" class="scroll-item">PR</a>
+            <a href="#" class="scroll-item">SOCIAL</a>
+        </div> 
+        <div class="text">
+            <h2>SCROLL AND SELECT</h2>
+        </div>
+    </div>
+
+
+    
+    <!-- <section>
+        <header>
+            <div class="logo">
+                <img src="cultuelogo.png" alt="">
+            </div>
+            <div class="menu-btn" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </header>    
+</section> -->
+    <script src="culture.js"></script>
+</body>
+</html>
